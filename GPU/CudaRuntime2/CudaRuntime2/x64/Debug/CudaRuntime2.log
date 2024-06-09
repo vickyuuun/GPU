@@ -1,0 +1,34 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\x64\Debug\kernel.cu.obj "C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\kernel.cu" 
+C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\kernel.cu(1): error : expected a declaration
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+CUDACOMPILE : error : inline specifier allowed on function declarations only
+  
+C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\kernel.cu(143): error : identifier "printf" is undefined
+  
+C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\kernel.cu(148): error : identifier "printf" is undefined
+  
+C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\kernel.cu(165): error : identifier "printf" is undefined
+  
+C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\kernel.cu(171): error : identifier "printf" is undefined
+  
+C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\kernel.cu(178): error : identifier "printf" is undefined
+  
+C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\kernel.cu(181): error : identifier "__acrt_iob_func" is undefined
+  
+C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\kernel.cu(181): error : identifier "fprintf" is undefined
+  
+  14 errors detected in the compilation of "C:/Users/DELL/Desktop/2￠DD×÷òμ/GPU/CudaRuntime2/CudaRuntime2/kernel.cu".
+  kernel.cu
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\BuildCustomizations\CUDA 12.0.targets(794,9): error MSB3721: 命令“"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.0\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc143.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\x64\Debug\kernel.cu.obj "C:\Users\DELL\Desktop\并行作业\GPU\CudaRuntime2\CudaRuntime2\kernel.cu"”已退出，返回代码为 2。
